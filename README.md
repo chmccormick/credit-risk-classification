@@ -10,18 +10,12 @@ Now that my model had seen the training data, I used the Logistic Regression cla
 
 ## Results
 Evaluation: 
-  •	Accuracy
-	  * 0.99 (99%)
-•	Precision
-  *	0_healthy 
-	  * 1.00 (100%)
-  *	1_high_risk
-    *	0.85 (85%)
-•	Recall
-  *	0_healthy 
-    *	0.99 (99%)
-  *	1_high_risk
-    *	0.88 (88%)
+
+• Accuracy : 0.99 (99%)
+
+• Precision: 0_healthy : 1.00 (100%) // 1_high_risk :  0.85 (85%)
+
+• Recall : 0_healthy :  0.99 (99%) // 1_high_risk : 0.88 (88%)
 
 ## Summary
 Overall, I feel that this model’s performance met expectations. I did find it interesting that the accuracy score on the model was 100%, while the precision score of the high-risk loan predictions was only 85%. I believe that because there are so many healthy loans in comparison to the number of high-risk loans. This causes our classes to become imbalanced, leaving more room for false positives. This might explain why our high-risk precision score is a little lower. 
